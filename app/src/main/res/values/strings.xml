@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Factorial</string>
     <string name="calculate">Calculate</string>
+    <string name="error">You did not entered value</string>
 </resources>
