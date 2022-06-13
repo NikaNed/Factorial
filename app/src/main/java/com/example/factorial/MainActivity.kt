@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
                 is State.Error -> {
                     Toast.makeText(this, getString(R.string.error), Toast.LENGTH_SHORT).show()
                 }
-                is State.Result -> {
-                    binding.textViewFactorial.text = it.factorial
+                is State.Factorial -> {
+                    binding.textViewFactorial.text = it.value
                 }
             }
         }
